@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "dev": "ng serve",
-    "build": "ng build --prod",
+    "build": "ng build --prod --base-href=https://kaya234.github.io/angular-json-server/",
     "watch": "ng build --watch --configuration development",
     "api": "json-server --watch ./data/db.json",
     "run-all": "concurrently \"npm run api\" \"npm run dev\""
@@ -38,7 +38,6 @@
     "@angular-eslint/template-parser": "15.2.1",
     "@angular/cli": "~15.0.4",
     "@angular/compiler-cli": "^15.0.0",
-    "@playwright/test": "^1.39.0",
     "@types/jasmine": "~4.3.0",
     "@types/node": "^20.8.10",
     "@typescript-eslint/eslint-plugin": "5.48.2",

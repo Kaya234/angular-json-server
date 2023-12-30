@@ -1,0 +1,4 @@
+<form class="d-flex" role="search" (keydown.enter)="$event.preventDefault()">
+  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" #term>
+  <button class="btn btn-outline-light" type="button" (click)="searchFilter(term.value)">Search</button>
+</form>

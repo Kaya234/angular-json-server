@@ -1,0 +1,54 @@
+{
+  "coursesList": [
+    {
+      "id": 1,
+      "category": "programming",
+      "name": "Programming for beginners",
+      "img": "/images/programing-for-beginners.jpg",
+      "description": "In this course, you will learn the fundamental principles of programming, from basic syntax and variables to control flow and data structures. You will also gain hands-on experience by writing your own code and solving real-world problems.",
+      "address": "Lotysska 10",
+      "city": "Brno",
+      "capacity": 5
+    },
+    {
+      "id": 2,
+      "category": "cooking",
+      "name": "Cooking lessons for beginners",
+      "img": "/images/cooking-lessons-for-beginners.jpg",
+      "description": "Embark on a culinary adventure with our 'Cooking for Beginners' course and discover the joy of creating delectable dishes from scratch. This comprehensive guide will equip you with the fundamental skills and techniques to transform your kitchen into a haven of culinary creativity.",
+      "address": "Lotysska 8",
+      "city": "Prague",
+      "capacity": 8
+    },
+    {
+      "id": 3,
+      "category": "music",
+      "name": "Piano lessons for beginners",
+      "img": "/images/piano-lessons-for-beginners.jpg",
+      "description": "Whether you've always dreamed of tickling the ivories or simply want to add a new skill to your repertoire, our 'Piano Lessons for Beginners' course is the perfect starting point. This comprehensive guide will introduce you to the fundamentals of piano playing, from identifying notes on the keyboard to mastering basic chords and melodies.",
+      "address": "Spanelska 13",
+      "city": "Prague",
+      "capacity": 3
+    },
+    {
+      "id": 4,
+      "category": "art",
+      "name": "Painting lessons for beginners",
+      "img": "/images/painting-lessons-for-beginners.jpg",
+      "description": "Welcome to the world of art and creativity! This comprehensive course will guide you through the exciting process of learning to paint. Whether you're an aspiring artist or simply want to explore your artistic side, this course will provide the perfect foundation to unleash your creative potential.",
+      "address": "Evropska 1/12",
+      "city": "Prague",
+      "capacity": 12
+    },
+    {
+      "id": 5,
+      "category": "cooking",
+      "name": "Czech cuisine lessons",
+      "img": "/images/czech-cuisine-lessons.jpg",
+      "description": "Czech cuisine is a hearty and flavorful blend of Central European influences, with its roots in the rich agricultural traditions of the region. From savory main courses to sweet pastries, Czech cuisine offers a delightful culinary experience that will tantalize your taste buds.",
+      "address": "Stodolni 22",
+      "city": "Brno",
+      "capacity": 20
+    }
+  ]
+}

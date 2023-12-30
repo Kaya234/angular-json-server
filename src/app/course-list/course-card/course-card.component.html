@@ -1,0 +1,20 @@
+<div class="col d-flex justify-content-center">
+  <div class="card courses-card">
+    <img class="card-img-top" src='assets{{course.img}}' alt={{course.name}} />
+    <div class="card-body">
+      <h5 class="card-title">{{course.name}}</h5>
+      <div class="card-text">
+        <a [routerLink]="['/categories']" [queryParams]="{category: course.category}">
+          <p class="badge rounded-pill bg-primary">
+            {{course.category}}
+          </p>
+        </a>
+      </div>
+      <p class="card-text">city: {{course.city}}</p>
+      <p class="card-text">capacity: {{course.capacity}}</p>
+      <a [routerLink]="['/courses', course.id]">
+        <button class="btn btn-dark bg-color border-0">see course</button>
+      </a>
+    </div>
+  </div>
+</div>

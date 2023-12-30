@@ -1,0 +1,10 @@
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" id="dropdownMenuButton1"
+    aria-expanded="false">
+    Category
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li *ngFor="let category of categories"><a class="dropdown-item" [routerLink]="['/categories']"
+        [queryParams]="{category: category}">{{category}}</a></li>
+  </ul>
+</li>

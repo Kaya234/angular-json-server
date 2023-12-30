@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+  position: relative;
+  min-height: 100px;
+}
+
+.content-wrap {
+  padding-bottom: 23rem;
+}
+
+/* Navigation */
+
+nav {
+  display: flex;
+  margin: 0 auto 60px;
+  gap: 10px;
+  align-items: center;
+}
+
+.nav-collapse {
+  max-height: 500px;
+}
+
+.navbar {
+  color: #c1c1c1;
+  text-decoration: none;
+}
+
+.nav-logo {
+  width: 35px;
+  height: 35px;
+}
+
+/* Footer */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+}
+
+.footer p {
+  padding-top: 1rem;
+}
+
+.footer-icon {
+  width: 40px;
+  height: 40px;
+  fill: white;
+}
+
+/* HomePage */
+
+.title {
+  padding-bottom: 2rem;
+}
+
+.heading {
+  font-size: 5.8rem;
+}
+
+/* CoursesPage */
+
+.courses-card {
+  width: 20rem;
+}
+
+.course-detail {
+  width: 50rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.description {
+  padding: 1rem;
+}
+
+.back-button {
+  padding: 1rem;
+}
+
+.bg-color {
+  background-color: purple;
+}

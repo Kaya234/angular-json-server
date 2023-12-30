@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row d-flex justify-content-center g-4">
+    <div class="col back-button">
+      <a routerLink="..">
+        <button id="back-button" class="btn btn-dark bg-color border-0">Go back</button>
+      </a>
+    </div>
+  </div>
+
+  <div class="row d-flex justify-content-md-center g-4">
+    <div class="col-8 d-flex justify-content-center">
+      <div class="card card-detail">
+        <img class="card-img-top" src='assets{{course.img}}' alt={{course.name}} />
+        <div class="card-body">
+          <h1 class="card-title">{{course.name}}</h1>
+          <div class="card-text">
+            <a [routerLink]="['/categories']" [queryParams]="{category: course.category}">
+              <p class="badge rounded-pill bg-primary">
+                {{course.category}}
+              </p>
+            </a>
+            <p class="card-text"><b>Location:</b> {{course.city}}, {{course.address}} </p>
+            <p class="card-text"><b>Capacity:</b> {{course.capacity}}</p>
+            <p class="card-text"><b>Description</b></p>
+            <div class="border rounded description">
+              {{course.description}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
